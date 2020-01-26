@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.pyx": "python",
+        "vector": "cpp",
+        "xutility": "cpp",
+        "cstdlib": "cpp",
+        "set": "cpp",
+        "xtree": "cpp",
+        "xstddef": "cpp",
+        "unordered_map": "cpp"
+    }
+}
