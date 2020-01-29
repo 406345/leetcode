@@ -4,17 +4,18 @@
 
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    int lengthOfLongestSubstringTwoDistinct(string s) {
-        
+    int findTargetSumWays(vector<int> &nums, int S)
+    {
     }
 };
 
 int main(int argc, char const *argv[])
 {
     Solution s;
-    s.lengthOfLongestSubstringTwoDistinct("eceba");
+    printf("%d\n",s.findTargetSumWays(vector<int>({1, 1, 1, 1, 1, 1}), 3));
 
     return 0;
 }
