@@ -9,6 +9,7 @@
         "xstddef": "cpp",
         "unordered_map": "cpp",
         "queue": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "algorithm": "cpp"
     }
 }
