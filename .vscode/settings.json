@@ -13,6 +13,7 @@
         "algorithm": "cpp",
         "list": "cpp",
         "xstring": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "limits": "cpp"
     }
 }
