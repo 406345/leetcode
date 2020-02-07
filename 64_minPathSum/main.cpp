@@ -78,10 +78,8 @@ int main(int argc, char const *argv[])
                            vector<int>({4, 2, 1}),
                        })));
     // printf("%d\n", s.uniquePathsWithObstacles(
-
     //                    vector<vector<int>>({
     //                        vector<int>({1}),
-
     //                    })));
     //printf("%d\n",s.uniquePaths(3,2));
     // printf("%d\n",s.uniquePaths(7,3));
