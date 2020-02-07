@@ -23,6 +23,8 @@
         "type_traits": "cpp",
         "xhash": "cpp",
         "unordered_set": "cpp",
-        "hash_set": "cpp"
+        "hash_set": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp"
     }
 }
