@@ -12,7 +12,6 @@ using namespace std;
 class HitCounter {
 public:
     map<int,size_t> counter;
-    size_t timer = 1;
     /** Initialize your data structure here. */
     HitCounter() {
         
@@ -33,14 +32,20 @@ public:
     int getHits(int timestamp) {
         size_t ret  = 0;
         int start = timestamp - 300;
-        for(auto & kv : counter)
-        {
-            if( start < kv.first && kv.first <= timestamp)
-            {
-                ret += kv.second;
-            } 
-        }
 
+        map<int,size_t>::reverse_iterator itr = counter.rbegin();
+
+        while(itr != counter.rend()){
+            if( start < (*itr).first &&  (*itr).first <= timestamp)
+            {
+                ret +=  (*itr).second;
+            } 
+            else{
+                break;
+            }
+            itr++;
+        }
+      
         return ret;
         
     }
