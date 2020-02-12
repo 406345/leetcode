@@ -6,13 +6,16 @@
 #include "map"
 #include "algorithm"
 #include "string"
+#include "queue"
+#include "stack"
+
 
 using namespace std;
 
 class Solution
 {
 public:
-    int findTargetSumWays(vector<int> &nums, int S)
+    int method(vector<int> &nums, int S)
     {
     }
 };
