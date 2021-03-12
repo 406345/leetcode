@@ -25,6 +25,8 @@
         "unordered_set": "cpp",
         "hash_set": "cpp",
         "iosfwd": "cpp",
-        "istream": "cpp"
+        "istream": "cpp",
+        "cmath": "cpp",
+        "xtr1common": "cpp"
     }
 }
