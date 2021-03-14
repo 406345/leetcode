@@ -27,6 +27,18 @@
         "iosfwd": "cpp",
         "istream": "cpp",
         "cmath": "cpp",
-        "xtr1common": "cpp"
+        "xtr1common": "cpp",
+        "cctype": "cpp",
+        "concepts": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstring": "cpp",
+        "cwchar": "cpp",
+        "exception": "cpp",
+        "new": "cpp",
+        "stack": "cpp",
+        "tuple": "cpp",
+        "xmemory": "cpp"
     }
 }
