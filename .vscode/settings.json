@@ -39,6 +39,7 @@
         "new": "cpp",
         "stack": "cpp",
         "tuple": "cpp",
-        "xmemory": "cpp"
+        "xmemory": "cpp",
+        "functional": "cpp"
     }
 }
