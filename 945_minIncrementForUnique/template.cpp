@@ -20,17 +20,35 @@
 
 using namespace std;
 
-class Solution
-{
+class Solution {
 public:
-    int method(vector<int> &nums, int S)
-    {
+    int minIncrementForUnique(vector<int>& A) {
+        // if(A.size() == 0) return 0;
+        int t = 0;
+        int ret = 0;
+
+        sort(A.begin(),A.end());
+
+
+        for (int i = 1; i < A.size(); i++)
+        {
+            if( A[i-1] < A[i]){
+                continue;
+            }
+            else {
+                ret += 1 - (A[i] - A[i-1]) ;
+                A[i] = A[i-1] + 1;
+            }
+        }
+        
+
+        return ret;
     }
 };
 
 int main(int argc, char const *argv[])
 {
     Solution s;
-    
+    s.minIncrementForUnique(vector<int>{3,2,1,2,1,7});
     return 0;
 }
