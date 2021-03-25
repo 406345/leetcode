@@ -21,17 +21,29 @@
 
 using namespace std;
 
-class Solution
-{
+class Solution {
 public:
-    int method(vector<int> &nums, int S)
-    {
-    }
+    vector<int> numOfBurgers(int tomatoSlices, int cheeseSlices) {
+        int big_num = (tomatoSlices - 2*cheeseSlices) ;
+
+        int small_num = 4 * cheeseSlices - tomatoSlices;
+
+        if( big_num >= 0 && small_num >= 0 && big_num % 2 == 0 && small_num % 2 == 0){
+            return {big_num/2,small_num/2};
+        }
+
+        return {};
+    }   
 };
 
 int main(int argc, char const *argv[])
 {
     Solution s;
-    
+    s.numOfBurgers(1,17);
+    s.numOfBurgers(1,17);
+    s.numOfBurgers(0,0);
+    s.numOfBurgers(4,17);
+    s.numOfBurgers(16,7);
+    s.numOfBurgers(17,4);
     return 0;
 }
